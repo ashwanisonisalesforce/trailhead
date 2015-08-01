@@ -1,178 +1,186 @@
-<div class="WordSection1">
 
-# Learning Objective
+[Source](https://raw.githubusercontent.com/ashwinopensource/trailhead/master/ShowVisualforcepageinSalesforce1Mobile.htm "Permalink to Show Visualforce page in Salesforce1 Mobile")
 
-<span style="font-size:11.0pt;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black"> </span>
+# Show Visualforce page in Salesforce1 Mobile
 
-<span style="font-size:10.0pt;
-font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;color:black">After completing this Quick Start tutorial you will be able to:</span>
+&nbsp;
 
-<span style="font-size:10.0pt;
-font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;
-color:black">Create Visualforce page for Salesforce1 mobile</span>
+After completing this Quick Start tutorial you will be able to:
 
-<span style="font-size:10.0pt;
-font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;
-color:black">Creating publisher action, mobile tab and mobile card</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create Visualforce page for Salesforce1 mobile
 
-<span style="font-size:10.0pt;
-font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;
-color:black">Use visualforce page to various places in Salesforce1</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating publisher action, mobile tab and mobile card
 
-<span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:black"> </span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use visualforce page to various places in Salesforce1
 
-# Ready a Visualforce Page<span style="font-size:11.0pt;line-height:107%;
-font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black"> </span>
+&nbsp;
 
-<span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
-color:black"> </span>
+&nbsp;
 
-<span style="font-size:10.0pt;
-font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;color:black">1.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;
-color:black">Create Visualforce page for Salesforce1 mobile</span>
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create Visualforce page for Salesforce1 mobile
 
-<span style="font-size:10.0pt;
-font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;color:black">2.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;;
-color:black">From Setup, **Develop** | **Pages**, and then clicking **New**.</span>
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From Setup, **Develop** | **Pages**, and then clicking **New**.
 
-<span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Copy following code in Visualforce editor window</span>
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copy following code in Visualforce editor window
 
-<span style="color:#C55A11"><apex:page title="Trailhead QuickStart" standardController="Account" showHeader="false"></span>
+<pre>
+<apex:page title="Trailhead QuickStart" standardcontroller="Account" showheader="false">
 
-<span style="color:#C55A11"><h1> Hello World, Hello Dreamforce! </h1></span>
+<h1> Hello World, Hello Dreamforce! </h1>
 
-<span style="color:#C55A11"></apex:page></span>
+</apex:page>
+</pre>
 
-<span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">4.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span>**<span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Check</span>** <span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">the **Available for Salesforce mobile apps** checkbox</span>
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Check** the **Available for Salesforce mobile apps** checkbox
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image001.png)
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">5.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save** button</span>
+![][1]
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Great! You just created your first Visualforce page.</span>
+&nbsp;
 
-# Create a Salesforce1 Mobile Tab
+5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save** button
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">1.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">From **Setup**, click **Create** | **Tabs**</span>
+Great! You just created your first Visualforce page.
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">2.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **New** on **Visuaforce Tabs** section</span>
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Select **HelloDreamforce** page from **Visualforce Page** dropdown</span>
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From **Setup**, click **Create** | **Tabs**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">4.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Name the tab “Trailhead Demo” in **Tab Label**</span>
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **New** on **Visuaforce Tabs** section
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">5.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Select any Tab Style from **Tab Style** lookup</span>
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select **HelloDreamforce** page from **Visualforce Page** dropdown
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image002.png)
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name the tab Trailhead Demo in **Tab Label**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">6.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Next** until you don’t reach to **Step 3: Add to Custom Apps**</span>
+5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select any Tab Style from **Tab Style** lookup
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">7.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Deselect **Include Tab** checkbox</span>
+![][2]
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">8.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save**</span>
+6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Next** until you dont reach to **Step 3: Add to Custom Apps**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Great! You have just created Salesforce1 Mobile Tab.</span>
+7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deselect **Include Tab** checkbox
 
-## Now let’s add the mobile tab to Salesforce1 Mobile
+8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">1.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">From **Setup**, click **Create** | **Tabs**</span>
+Great! You have just created Salesforce1 Mobile Tab.
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">2.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Edit** before to the tab “Trailhead Demo” on **Visuaforce Tabs** section</span>
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Check the **Salesforce Classic Ready** checkbox</span>
+## Now lets add the mobile tab to Salesforce1 Mobile
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image003.png)
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From **Setup**, click **Create** | **Tabs**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">4.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save**</span>
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Edit** before to the tab Trailhead Demo on **Visuaforce Tabs** section
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">5.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">From Setup, click **Selesforce1 Setup** | **Navigation Menu** link</span>
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check the **Salesforce Classic Ready** checkbox
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image004.png)
+![][3]
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">6.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Select Trailhead Demo and click Add to move into **Selected** list</span>
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">7.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Use **Up** and **Down** to put it as first item in list</span>
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">8.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save**</span>
+5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From Setup, click **Selesforce1 Setup** | **Navigation Menu** link
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Awesome! You have just enabled the visualforce page for Salesforce1 mobile App. Login to the app, you would see your page as:</span>
+![][4]
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image005.png)
+6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Trailhead Demo and click Add to move into **Selected** list
 
-# Create the Visualforce page as an Action in Salesforce1 App
+7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use **Up** and **Down** to put it as first item in list
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">1.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">From Setup, click on **Customize | Accounts | Buttons, Links and Actions**</span>
+8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">2.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **New Action**</span>
+Awesome! You have just enabled the visualforce page for Salesforce1 mobile App. Login to the app, you would see your page as:
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Select **Action Type** “Custom Visualforce” from dropdown</span>
+![][5]
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">4.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Select **Visualforce Page** “HelloDreamforce” from dropdown</span>
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">5.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Set **Label** “Say Hello Trailhead”</span>
+&nbsp;
 
-6.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> <span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save**</span>
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From Setup, click on **Customize | Accounts | Buttons, Links and Actions**
 
-**![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image006.png)**
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **New Action**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">You have just defined a new action which can be used on Account object. Let’s use it in Salesforce1</span>
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select **Action Type** Custom Visualforce from dropdown
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">1.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">From Setup, click **Customize | Accounts | Page Layouts**</span>
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select **Visualforce Page** HelloDreamforce from dropdown
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">2.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Edit** before to **Account Layout**</span>
+5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Set **Label** Say Hello Trailhead
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">In page layout editor Select **Quick Action** in navigation panel</span>
+6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;"> </span>
+**![][6]**
 
-4.<span style="font:7.0pt &quot;Times New Roman&quot;">       </span> <span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Drag **Say Hello Trailhead** action and drop it to **Quick Action in Publisher** section</span>
+**&nbsp;**
 
-<span style="position:absolute;z-index:251662336;left:0px;margin-left:309px;
-margin-top:463px;width:373px;height:265px">![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image007.png)</span> ![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image008.png) 
+You have just defined a new action which can be used on Account object. Lets use it in Salesforce1
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">5.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Quick Save**</span>
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From Setup, click **Customize | Accounts | Page Layouts**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">You have just enabled the Visualforce as a Quick Action to your Account. Let’s check it Salesforce1 by opening any Account record</span>
+2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Edit** before to **Account Layout**
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image009.png)
+3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In page layout editor Select **Quick Action** in navigation panel
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">6.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Same way, in page layout editor Select **Visualforce Pages** in navigation panel</span>
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">7.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Drag **Say Hello Trailhead** Visualforce page and drop it to **Mobile Cards (Salesforce1 Only)** section</span>
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead **action and drop it to **Quick Action in Publisher** section
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image010.jpg)
+&nbsp;
 
-<span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">8.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span> </span><span style="font-size:10.0pt;line-height:107%;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">Click **Save**</span>
+![][7]![][8]
 
-**<span style="font-size:10.0pt;line-height:107%;
-font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;"> </span>**
+5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Quick Save**
 
-<span style="font-size:10.0pt;line-height:107%;font-family:
-&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">You have just set Visualforce page as mobile card in Salesforce1 page. Let’s check it by opening any Account record’s **Related** tab in Salesforce1 App</span>
+You have just enabled the Visualforce as a Quick Action to your Account. Lets check it Salesforce1 by opening any Account record
 
-![](Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image011.png)
+![][9]
 
-# Summary
+6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Same way, in page layout editor Select **Visualforce Pages** in navigation panel
+
+7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead **Visualforce page and drop it to **Mobile Cards (Salesforce1 Only)** section
+
+![][10]
+
+8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Save**
+
+**&nbsp;**
+
+You have just set Visualforce page as mobile card in Salesforce1 page. Lets check it by opening any Account records **Related** tab in Salesforce1 App
+
+![][11]
+
+&nbsp;
 
 With Tutorial you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it.
 
-# Resources
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Global Actions][12]
 
-<span style="font-size:10.0pt;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">[<span style="text-decoration:none">Global Actions</span>](https://help.salesforce.com/HTViewHelpDoc?id=actions_overview_global.htm "HTML (New Window)")</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Notes on Predefined Field Values for Quick Actions][13]
 
-<span style="font-size:10.0pt;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">[<span style="text-decoration:none">Notes on Predefined Field Values for Quick Actions</span>](https://help.salesforce.com/HTViewHelpDoc?id=predefined_field_values_notes.htm "HTML (New Window)")</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Assign Global Publisher Layouts to User Profiles][14]
 
-<span style="font-size:10.0pt;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">[<span style="text-decoration:none">Assign Global Publisher Layouts to User Profiles</span>](https://help.salesforce.com/HTViewHelpDoc?id=assigning_global_publisher_layouts_to_profiles.htm)</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Salesforce1 Look and Feel in Visualforce pages][15]
 
-<span style="font-size:10.0pt;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">[<span style="text-decoration:none">Salesforce1 Look and Feel in Visualforce pages</span>](https://intmist.wordpress.com/2014/02/16/salesforce1-look-and-feel-customise-visualforce-pages-for-salesforce1/)</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Show Custom Visualforce page in Salesforce1. Setup publisher action to allow user to check-in using Salesforce1&nbsp;app][16]
 
-<span style="font-size:10.0pt;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">      </span> </span><span style="font-size:10.0pt;font-family:&quot;Segoe UI Semilight&quot;,&quot;sans-serif&quot;">[<span style="text-decoration:none">Show Custom Visualforce page in Salesforce1\. Setup publisher action to allow user to check-in using Salesforce1 app</span>](https://intmist.wordpress.com/2014/03/23/show-custom-visualforce-page-in-salesforce1-setup-publisher-action-and-check-in-using-salesforce1-app/)</span>
+&nbsp;
 
-</div>
+[1]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image001.png
+[2]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image002.png
+[3]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image003.png
+[4]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image004.png
+[5]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image005.png
+[6]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image006.png
+[7]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image007.png
+[8]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image008.png
+[9]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image009.png
+[10]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image010.jpg
+[11]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image011.png
+[12]: https://help.salesforce.com/HTViewHelpDoc?id=actions_overview_global.htm "HTML (New Window)"
+[13]: https://help.salesforce.com/HTViewHelpDoc?id=predefined_field_values_notes.htm "HTML (New Window)"
+[14]: https://help.salesforce.com/HTViewHelpDoc?id=assigning_global_publisher_layouts_to_profiles.htm
+[15]: https://intmist.wordpress.com/2014/02/16/salesforce1-look-and-feel-customise-visualforce-pages-for-salesforce1/
+[16]: https://intmist.wordpress.com/2014/03/23/show-custom-visualforce-page-in-salesforce1-setup-publisher-action-and-check-in-using-salesforce1-app/
+  
