@@ -231,7 +231,7 @@ for Salesforce mobile apps</b> checkbox</span></p>
 <p class=MsoNormal style='margin-left:.25in'>&nbsp;</p>
 
 <p class=MsoNormal><img width=689 height=424 id="Picture 17"
-src="Show%20Visualforce%20page%20in%20Salesforce1%20Mobile_files/image001.png"></p>
+src="https://cloud.githubusercontent.com/assets/5411023/9021667/e04360fe-386c-11e5-9117-c214de443db8.png"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
