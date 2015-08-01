@@ -134,7 +134,7 @@ You have just defined a new action which can be used on Account object. Lets use
 
 &nbsp;
 
-![][7]![][8]
+![][8]
 
 5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click **Quick Save**
 
