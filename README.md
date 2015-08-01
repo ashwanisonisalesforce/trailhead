@@ -25,14 +25,14 @@ After completing this Quick Start tutorial you will be able to:
 
 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copy following code in Visualforce editor window
 
-`
-<pre>
-<apex:page title="Trailhead QuickStart" standardcontroller="Account" showheader="false">
 
-<h1> Hello World, Hello Dreamforce! </h1>
+		<pre>
+		<apex:page title="Trailhead QuickStart" standardcontroller="Account" showheader="false">
 
-</apex:page>
-</pre>`
+		<h1> Hello World, Hello Dreamforce! </h1>
+
+		</apex:page>
+		</pre>
 
 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Check** the **Available for Salesforce mobile apps** checkbox
 
@@ -128,7 +128,7 @@ You have just defined a new action which can be used on Account object. Lets use
 
 &nbsp;
 
-4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead **action and drop it to **Quick Action in Publisher** section
+4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead** action and drop it to **Quick Action in Publisher** section
 
 &nbsp;
 
@@ -142,7 +142,7 @@ You have just enabled the Visualforce as a Quick Action to your Account. Lets ch
 
 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Same way, in page layout editor Select **Visualforce Pages** in navigation panel
 
-7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead **Visualforce page and drop it to **Mobile Cards (Salesforce1 Only)** section
+7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag **Say Hello Trailhead** Visualforce page and drop it to **Mobile Cards (Salesforce1 Only)** section
 
 ![][10]
 
@@ -156,7 +156,7 @@ You have just set Visualforce page as mobile card in Salesforce1 page. Lets chec
 
 &nbsp;
 
-With Tutorial you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it.
+_Verification With this unit you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Global Actions][12]
 
