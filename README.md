@@ -18,6 +18,7 @@ After completing this Quick Start tutorial you will be able to:
 &nbsp;
 
 &nbsp;
+## Ready a Visualforce Page 
 
 1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create Visualforce page for Salesforce1 mobile
 
@@ -46,7 +47,8 @@ After completing this Quick Start tutorial you will be able to:
 
 Great! You just created your first Visualforce page.
 
-&nbsp;
+&nbsp; 
+## Create a Salesforce1 Mobile Tab
 
 1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From **Setup**, click **Create** | **Tabs**
 
@@ -100,7 +102,7 @@ Awesome! You have just enabled the visualforce page for Salesforce1 mobile App. 
 
 &nbsp;
 
-&nbsp;
+# Show the Visualforce page as an Action in Salesforce1 App
 
 1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From Setup, click on **Customize | Accounts | Buttons, Links and Actions**
 
@@ -154,10 +156,12 @@ You have just set Visualforce page as mobile card in Salesforce1 page. Lets chec
 
 ![][11]
 
-&nbsp;
+&nbsp; 
+# Summary
 
 _Verification With this unit you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it.
 
+# Resources
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Global Actions][12]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Notes on Predefined Field Values for Quick Actions][13]
