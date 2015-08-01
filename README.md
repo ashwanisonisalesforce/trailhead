@@ -5,6 +5,8 @@
 
 &nbsp;
 
+# Learning Objective
+
 After completing this Quick Start tutorial you will be able to:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create Visualforce page for Salesforce1 mobile
@@ -167,7 +169,7 @@ With Tutorial you have learned the ways a Visualforce can be used in Salesforce 
 
 &nbsp;
 
-[1]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image001.png
+[1]: /ShowVisualforcepageinSalesforce1Mobile_files/image001.png
 [2]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image002.png
 [3]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image003.png
 [4]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image004.png
