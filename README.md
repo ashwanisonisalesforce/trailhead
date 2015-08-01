@@ -159,7 +159,7 @@ You have just set Visualforce page as mobile card in Salesforce1 page. Lets chec
 &nbsp; 
 # Summary
 
-_Verification With this unit you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it.
+_Verification With this unit you have learned the ways a Visualforce can be used in Salesforce mobile1 app. Each way has its own benefits. Now whenever you need to add a Visualforce you know the ways and how to do it. anchor_
 
 # Resources
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Global Actions][12]
