@@ -5,15 +5,15 @@
 
 &nbsp;
 
-# Learning Objective
+## Learning Objective
 
 After completing this Quick Start tutorial you will be able to:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create Visualforce page for Salesforce1 mobile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Create Visualforce page for Salesforce1 mobile
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating publisher action, mobile tab and mobile card
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Creating publisher action, mobile tab and mobile card
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use visualforce page to various places in Salesforce1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Use visualforce page to various places in Salesforce1
 
 &nbsp;
 
@@ -25,13 +25,14 @@ After completing this Quick Start tutorial you will be able to:
 
 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copy following code in Visualforce editor window
 
+`
 <pre>
 <apex:page title="Trailhead QuickStart" standardcontroller="Account" showheader="false">
 
 <h1> Hello World, Hello Dreamforce! </h1>
 
 </apex:page>
-</pre>
+</pre>`
 
 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Check** the **Available for Salesforce mobile apps** checkbox
 
@@ -170,16 +171,16 @@ With Tutorial you have learned the ways a Visualforce can be used in Salesforce 
 &nbsp;
 
 [1]: /ShowVisualforcepageinSalesforce1Mobile_files/image001.png
-[2]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image002.png
-[3]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image003.png
-[4]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image004.png
-[5]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image005.png
-[6]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image006.png
-[7]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image007.png
-[8]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image008.png
-[9]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image009.png
-[10]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image010.jpg
-[11]: https://raw.githubusercontent.com/ShowVisualforcepageinSalesforce1Mobile_files/image011.png
+[2]: /ShowVisualforcepageinSalesforce1Mobile_files/image002.png
+[3]: /ShowVisualforcepageinSalesforce1Mobile_files/image003.png
+[4]: /ShowVisualforcepageinSalesforce1Mobile_files/image004.png
+[5]: /ShowVisualforcepageinSalesforce1Mobile_files/image005.png
+[6]: /ShowVisualforcepageinSalesforce1Mobile_files/image006.png
+[7]: /ShowVisualforcepageinSalesforce1Mobile_files/image007.png
+[8]: /ShowVisualforcepageinSalesforce1Mobile_files/image008.png
+[9]: /ShowVisualforcepageinSalesforce1Mobile_files/image009.png
+[10]: /ShowVisualforcepageinSalesforce1Mobile_files/image010.jpg
+[11]: /ShowVisualforcepageinSalesforce1Mobile_files/image011.png
 [12]: https://help.salesforce.com/HTViewHelpDoc?id=actions_overview_global.htm "HTML (New Window)"
 [13]: https://help.salesforce.com/HTViewHelpDoc?id=predefined_field_values_notes.htm "HTML (New Window)"
 [14]: https://help.salesforce.com/HTViewHelpDoc?id=assigning_global_publisher_layouts_to_profiles.htm
